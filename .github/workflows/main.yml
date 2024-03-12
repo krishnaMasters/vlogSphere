@@ -8,13 +8,11 @@ on:
   push:
     branches: 
     - main
-    -feature/sharing
-    -feature/filter
-    -feature/content-creation
-    -feature/basic-setup
-
-
-  
+    - feature/**
+  pull_request:
+    branches:
+     - main
+     - feature/**
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
