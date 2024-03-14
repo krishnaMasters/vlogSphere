@@ -1,2 +1,5 @@
-# vlogSphere
-VlogSphere is YouTube clone where user can create and upload their own videos, and search for videos based on keywords, categories, or trending topics.
+# Node.Js-Authentication-System
+
+This is a fully Functional Login, Register and Logout System Using Node.JS, Express, Passport and More...
+
+update: refactoring code soon
